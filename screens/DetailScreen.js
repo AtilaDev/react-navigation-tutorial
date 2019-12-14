@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, Button } from 'react-native';
-import { SafeAreaView, withNavigation } from 'react-navigation';
+import { SafeAreaView } from 'react-navigation';
 
 const DetailScreen = ({ navigation }) => {
   return (
@@ -29,4 +29,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default withNavigation(DetailScreen);
+export default DetailScreen;

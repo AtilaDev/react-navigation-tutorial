@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, Button } from 'react-native';
-import { withNavigation, SafeAreaView } from 'react-navigation';
+import { SafeAreaView } from 'react-navigation';
 
 const OtherScreen = ({ navigation }) => {
   return (
@@ -31,4 +31,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default withNavigation(OtherScreen);
+export default OtherScreen;
